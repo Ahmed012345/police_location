@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title">@dimen/_18font_mdp</dimen>
+    <dimen name="massege">@dimen/_16font_mdp</dimen>
+    <dimen name="time">@dimen/_10font_mdp</dimen>
+</resources>
