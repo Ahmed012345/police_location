@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="url_github" translatable="false">https://github.com/%s</string>
+    <string name="url_bitbucket" translatable="false">https://bitbucket.org/%s</string>
+
+    <string name="url_instagram_website" translatable="false">http://instagram.com/%s</string>
+    <string name="uri_instagram_app" translatable="false">http://instagram.com/_u/%s</string>
+    <string name="id_instagram_app" translatable="false">com.instagram.android</string>
+
+    <string name="url_facebook_website" translatable="false">https://www.facebook.com/%s</string>
+    <string name="uri_facebook_app" translatable="false">fb://page/%s</string>
+    <string name="id_facebook_app" translatable="false">com.facebook.katana</string>
+
+    <string name="url_twitter_website" translatable="false">https://twitter.com/%s</string>
+    <string name="uri_twitter_app" translatable="false">twitter://user?screen_name=%s</string>
+    <string name="id_twitter_app" translatable="false">com.twitter.android</string>
+
+    <string name="url_google_plus_website" translatable="false">https://plus.google.com/%s</string>
+    <string name="uri_google_plus_app" translatable="false">https://plus.google.com/%s</string>
+    <string name="id_google_plus_app" translatable="false">com.google.android.apps.plus</string>
+
+    <string name="url_google_play_store_developer_page" translatable="false">https://play.google.com/store/apps/dev?id=%s</string>
+    <string name="url_youtube_user_website" translatable="false">https://www.youtube.com/user/%s</string>
+    <string name="url_youtube_channel_website" translatable="false">https://www.youtube.com/channel/%s</string>
+
+    <string name="url_linkedin_website" translatable="false">https://www.linkedin.com/in/%s</string>
+    <string name="uri_linkedin_app" translatable="false">linkedin://profile/%s</string>
+    <string name="id_linkedin_app" translatable="false">com.linkedin.android</string>
+
+    <string name="uri_skype_app" translatable="false">skype:%s</string>
+    <string name="id_skype_app" translatable="false">com.skype.raider</string>
+
+    <string name="uri_add_contact" translatable="false">tell:%s</string>
+    <string name="uri_play_store_app_website" translatable="false">https://play.google.com/store/apps/details?id=%s</string>
+    <string name="uri_play_store_app" translatable="false">market://details?id=%s</string>
+    <string name="uri_play_store_apps_list" translatable="false">market://search?q=pub:%s</string>
+    <string name="uri_play_store_apps_list_website" translatable="false">https://play.google.com/store/search?q=%s</string>
+
+</resources>

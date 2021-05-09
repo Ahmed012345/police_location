@@ -1,0 +1,130 @@
+<resources>
+    <style name="AppTheme" parent="AppTheme.Base"/>
+    <!-- Base application theme. -->
+    <style name="AppTheme.Base" parent="Theme.MaterialComponents.NoActionBar.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#515151</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/white_56</item>
+        <item name="android:windowBackground">@drawable/policebackground</item>
+    </style>
+
+    <style name="NoInternetTheme" parent="Theme.MaterialComponents.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="roundedButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/button_pill</item>
+        <item name="android:paddingLeft">@dimen/margin_small</item>
+        <item name="android:paddingRight">@dimen/margin_small</item>
+        <item name="android:textSize">@dimen/_12font_mdp</item>
+    </style>
+
+    <style name="ImageView"/>
+    <style name="ImageView.Hamburger" parent="Widget.AppCompat.ActionButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/_6mdp</item>
+    </style>
+
+    <style name="AppThemeNoAction" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="common_locker_screen" parent="AppTheme">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Colored" parent="AppTheme">
+        <item name="android:navigationBarColor">@color/cl2</item>
+        <item name="aboutCardBackground">@color/e25</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">#53070B</item>
+    </style>
+    <style name="AppTheme.Selfy" parent="AppTheme">
+        <item name="android:navigationBarColor">@color/default_action_color</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">#1836B2</item>
+    </style>
+    <style name="AppTheme.Info" parent="AppTheme">
+        <item name="android:navigationBarColor">@color/flat_blue_2</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">#73ADFF</item>
+    </style>
+
+    <style name="DialogStyle" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+    <style name="Card">
+        <item name="cardCornerRadius">@dimen/card_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardMaxElevation">@dimen/card_elevation</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardPreventCornerOverlap">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="Cover">
+        <item name="android:layout_height">@dimen/profile_picture_size</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+
+    <style name="TextLabel">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Name" parent="@style/TextLabel">
+        <item name="android:maxLines">2</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+
+    <style name="SubTitle" parent="@style/TextLabel">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="Brief" parent="@style/TextLabel">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+
+    <style name="Social" parent="@style/TextLabel">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">3dp</item>
+    </style>
+
+
+</resources>

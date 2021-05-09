@@ -1,0 +1,208 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">HorasPolice</string>
+    <string name="lang">ar</string>
+    <string name="about_contact_us" tools:ignore="MissingTranslation">ﺇﺗﺼﻞ ﺑﻨﺎ</string>
+    <string name="about_instagram" tools:ignore="MissingTranslation">ﺗﺎﺑﻌﻨﺎ ﻋﻠﻰ اﻹﻧﺴﺘﻐﺮاﻡ</string>
+    <string name="about_facebook" tools:ignore="MissingTranslation">ﺗﺎﺑﻌﻨﺎ ﻋﻠﻰ اﻟﻔﻴﺲ ﺑﻮﻙ</string>
+    <string name="about_play_store" tools:ignore="MissingTranslation">ﻗﻴِّﻢ اﻟتطبيق ﻋﻠﻰ اﻟﺒﻼﻱ ﺳﺘﻮﺭ</string>
+    <string name="about_youtube" tools:ignore="MissingTranslation">ﺗﺎﺑﻌﻨﺎ ﻋﻠﻰ اﻟﻴﻮﺗﻮﺏ</string>
+    <string name="about_twitter" tools:ignore="MissingTranslation">ﺗﺎﺑﻌﻨﺎ ﻋﻠﻰ اﻟﺘﻮﻳﺘﺮ</string>
+    <string name="about_github" tools:ignore="MissingTranslation">ﺇﺳﺘﻨﺴﺦ اﻟﻤﺸﺮﻭﻉ</string>
+    <string name="about_website" tools:ignore="MissingTranslation">ﺯﺭ ﻣﻮﻗﻌﻨﺎ</string>
+
+
+    <string name="about_support_us" tools:ignore="MissingTranslation">دعم التطبيق</string>
+    <string name="from_egypt" tools:ignore="MissingTranslation">دق, مصر</string>
+
+    <string name="zekr" tools:ignore="MissingTranslation">إدخال عنوان البريد</string>
+    <string name="off_1" tools:ignore="MissingTranslation">إيقاف</string>
+    <string name="on_1" tools:ignore="MissingTranslation">تشغيل</string>
+    <string name="delete_1" tools:ignore="MissingTranslation">إلغاء</string>
+    <string name="save_1" tools:ignore="MissingTranslation">حفظ</string>
+    <string name="error_cannot_write" tools:ignore="MissingTranslation">لا يمكن كتابة الصورة الملتقطة بواسطة الكاميرا.</string>
+    <string name="error_cannot_open" tools:ignore="MissingTranslation">لا يمكن فتح الكاميرا.</string>
+    <string name="error_cannot_get_permission" tools:ignore="MissingTranslation">إذن الكاميرا غير متوفر.</string>
+    <string name="error_not_having_camera" tools:ignore="MissingTranslation">لا يحتوي جهازك على كاميرا أمامية.</string>
+    <string name="error_camera_permission_denied" tools:ignore="MissingTranslation">تم رفض إذن الكاميرا.</string>
+
+    <string name="dialog_title" tools:ignore="MissingTranslation">النسخة الجديدة متاحة</string>
+    <string name="dialog_message" tools:ignore="MissingTranslation">يتوفر إصدار جديد من التطبيق ، يرجى النقر أدناه لتحديث أحدث إصدار.</string>
+    <string name="fetchs" tools:ignore="MissingTranslation">إتصال إنترنت</string>
+    <string name="sharefacebook" tools:ignore="MissingTranslation">مشاركة رابط التطبيق على(Facebook)</string>
+    <string name="sharetwitter" tools:ignore="MissingTranslation">مشاركة رابط التطبيق على(Twitter)</string>
+    <string name="sharegmail" tools:ignore="MissingTranslation">مشاركة رابط التطبيق على(Gmail)</string>
+    <string name="sharewhatapp" tools:ignore="MissingTranslation">مشاركة رابط التطبيق على(What\'s App)</string>
+    <string name="shareinstagram" tools:ignore="MissingTranslation">مشاركة رابط التطبيق على(Instagram)</string>
+    <string name="sharetumblr" tools:ignore="MissingTranslation">مشاركة رابط التطبيق على(Tumblr)</string>
+    <string name="shareviber" tools:ignore="MissingTranslation">مشاركة رابط التطبيق على(Viber)</string>
+    <string name="sharelinkedin" tools:ignore="MissingTranslation">مشاركة رابط التطبيق على(Linkedin)</string>
+    <string name="sharesnapchat" tools:ignore="MissingTranslation">مشاركة رابط التطبيق على(Snapchat)</string>
+    <string name="shareskype" tools:ignore="MissingTranslation">مشاركة رابط التطبيق على(Skype)</string>
+    <string name="sharetelegram" tools:ignore="MissingTranslation">مشاركة رابط التطبيق على(Telegram)</string>
+    <string name="sharereddit" tools:ignore="MissingTranslation">مشاركة رابط التطبيق على(Reddit)</string>
+
+    <string name="screenlock" tools:ignore="MissingTranslation">قفل الشاشة</string>
+    <string name="save_setting" tools:ignore="MissingTranslation">حفظ الأعدادات</string>
+
+    <string name="permission_accessibility_setting_description" tools:ignore="MissingTranslation">قم بتشغيل وإغلاق جميع المفاتيح الأساسية بما في ذلك أزرار HOME و RECENTS و BACK و MENU. قد يتم تحذيرك بشأن مخاطر الخصوصية المحتملة ، فهذا مجرد تحذير إعلامي منتظم لأي خدمة وصول. نحن نعدك أبدًا بجمع معلوماتك الشخصية في خدمة الوصول هذه.</string>
+    <string name="Running" tools:ignore="MissingTranslation">العمل في الخلفية</string>
+    <string name="slide_up_to_unlock" tools:ignore="MissingTranslation">السحب لأعلى إلغاء القفل</string>
+    <string name="release_to_unlock" tools:ignore="MissingTranslation">حرر اللمس للفتح</string>
+    <string name="rationale_title" tools:ignore="MissingTranslation">إذن مطلوب</string>
+    <string name="rationale_message" tools:ignore="MissingTranslation">نحتاج إلى إذن لكتابة <b>تخزين</b> والعثور على <b>موقعك</b></string>
+    <string name="copy_right2" tools:ignore="MissingTranslation">هذا من فضل ربى</string>
+    <string name="copy_right" translatable="false">Police Android %1$d</string>
+
+
+    <string name="deviceLocationUtil_default_rationale_request_title" tools:ignore="MissingTranslation">إذن الموقع مطلوب</string>
+    <string name="deviceLocationUtil_default_rationale_request_messageBody" tools:ignore="MissingTranslation">يتطلب هذا التطبيق أذونات الموقع من أجل توفير وظيفة معرفة بالموقع. إذا لم يتم منح الإذن ، فقد لا تعمل أي ميزات تعتمد على هذه الوظيفة بشكل صحيح.</string>
+
+    <string name="deviceLocationUtil_request_returned_null"  translatable="false">Location request returned null</string>
+    <string name="deviceLocationUtil_requests_currently_active"  translatable="false">Device is already receiving location updates</string>
+
+    <string name="deviceLocationUtil_location_provided_by_lastLocation" translatable="false">
+        Location provided by mLocationClient.getLastLocation()
+    </string>
+    <string name="deviceLocationUtil_location_provided_by_locationUpdates"  translatable="false">
+        Location provided by mLocationClient.requestLocationUpdates()
+    </string>
+    <string name="deviceLocationUtil_location_settings_satisfied"  translatable="false">
+        Location settings satisfied
+    </string>
+    <string name="deviceLocationUtil_location_settings_not_satisfied"  translatable="false">
+        Location settings not satisfied. Attempting to resolve…
+    </string>
+    <string name="deviceLocationUtil_location_updates_removed"  translatable="false">Location updates removed</string>
+    <string name="deviceLocationUtil_location_updates_resumed"  translatable="false">Location updates resumed</string>
+
+    <string name="deviceLocationUtil_geocoder_not_available"  translatable="false">Geocoder not available. Check network connection.</string>
+    <string name="deviceLocationUtil_geocoder_invalid_latLong"  translatable="false">Invalid latitude or longitude</string>
+    <string name="deviceLocationUtil_geocoder_address_not_found"  translatable="false">No address found for this location</string>
+    <string name="deviceLocationUtil_geocoder_invalid_element"  translatable="false">Invalid element code</string>
+
+    <string name="output_failed"  translatable="false">Unable to get location: %1$s</string>
+    <string name="output_location"  translatable="false">Lat: %1$s Long: %2$s</string>
+    <string name="output_updates"  translatable="false">
+        Receiving location updates\n
+        Updates received: %1$s
+    </string>
+    <string name="google_maps_key"  translatable="false">AIzaSyB75vmxVyqB2utEYSoCG12iuux3sfEqa0U</string>
+    <string name="google_maps_key_DEBUG"  translatable="false">AIzaSyAvmacywucXPnt8YILXFakf_jYK1opk3Tc</string>
+    <string name="please_chacke_your_internet" tools:ignore="MissingTranslation">يرجى التحقق من اتصالك بالإنترنت والموقع. حاول مرة أخري</string>
+    <string name="retry" tools:ignore="MissingTranslation">حاول مجددا</string>
+    <string name="please_chacke_internet_startprogram" tools:ignore="MissingTranslation">هذا التطبيق لا يعمل دون الإنترنت والموقع ، وهذا لأفضل خدمة.</string>
+
+    <string name="no_internet_title" tools:ignore="MissingTranslation">لا يوجد اتصال إنترنت</string>
+    <string name="no_internet_body" tools:ignore="MissingTranslation">أنت غير متصل بالإنترنت والموقع</string>
+    <string name="wifi_on" tools:ignore="MissingTranslation">واي فاي</string>
+    <string name="mobile" tools:ignore="MissingTranslation">بيانات المحمول</string>
+    <string name="airplane" tools:ignore="MissingTranslation">وضع الطيران</string>
+    <string name="location" tools:ignore="MissingTranslation">موقعك</string>
+    <string name="turn_on" tools:ignore="MissingTranslation">يرجى تشغيل</string>
+    <string name="turn_off" tools:ignore="MissingTranslation">يرجى الإيقاف</string>
+    <string name="airplane_on" tools:ignore="MissingTranslation">لقد قمت بتشغيل وضع الطائرة.</string>
+    <string name="please_turn_on" tools:ignore="MissingTranslation">يرجى تشغيل بيانات الجوال</string>
+    <string name="turn_on_wifi" tools:ignore="MissingTranslation">تشغيل واي فاي</string>
+    <string name="please_turn_on_location" tools:ignore="MissingTranslation">يرجى تشغيل الموقع</string>
+    <string name="please_turn_off_Airplane" tools:ignore="MissingTranslation">يرجى إيقاف تشغيل وضع الطائرة</string>
+
+    <string name="why_connect_internet" tools:ignore="MissingTranslation">أهمية إتصال الأنترنت</string>
+    <string name="lesson_WIFI" tools:ignore="MissingTranslation">عند تفعيل الأنترنت من خلال بيانات الهاتف او الواى فاى يتمكن التطبيق من إرسال صورة من الكاميرا الأمامية صورة من خرائط جوجل لموقع الهاتف مع الوقت والتاريخ.</string>
+    <string name="why_connect_location" tools:ignore="MissingTranslation">أهمية تحديد موقع الهاتف</string>
+    <string name="esson_LOCATION" tools:ignore="MissingTranslation">عند تفعيل موقع الهاتف يتمكن التطبيق من عمل  صورة من خرائط جوجل لمكان الهاتف فى دائرة قطرها 70 متر</string>
+    <string name="why_put_google_mail" tools:ignore="MissingTranslation">أهمية إدخال بريدك الإلكترونى</string>
+    <string name="lesson_EMAIL" tools:ignore="MissingTranslation">عند إدخال بريدك الإلكترونى يقوم التطبيق بإرسال صورة الكاميرا الأمامية وموقع الهاتف من بريد التطبيق إلى البريد المدخل ولنجاح عمليه الإرسال يجب تفعيل الموقع ولإتصال الأنترنت</string>
+    <string name="why_important_screen" tools:ignore="MissingTranslation">أهمية قفل الشاشة</string>
+    <string name="lesson_SCREEN_LOCK" tools:ignore="MissingTranslation">عند فتح قفل الشاشة تتم عمليه حفظ الصور فى مجلد</string>
+    <string name="why_save_settings" tools:ignore="MissingTranslation">أهمية حفظ الإعدادات</string>
+    <string name="lesson_save_settings" tools:ignore="MissingTranslation">يجب حفظ الإعدادات من قائمة البريد الإلكترونى لنجاح عملية الإرسال</string>
+    <string name="why_this_app_good_and_for_what_use" tools:ignore="MissingTranslation">أهمية Police Android</string>
+    <string name="lesson_discription_app1" tools:ignore="MissingTranslation">1.الحالات الطارئة بأنواعها المختلفة التى يكون من المهم فيها معرفة وقت وتاريخ وجود شخص فى موقع معين. و الأستدلال عن الأماكن فبمجرد فتح الشخص للهاتف يرسل التطبيق مكانة.</string>
+    <string name="lesson_discription_app2" tools:ignore="MissingTranslation">2.معرفة من يتجسس على هاتفك من خلال إلتقاط صورة لمن يقوم بفتح هاتفك مع الوقت والتاريخ من خلال صورة المكان.</string>
+    <string name="lesson_discription_app3" tools:ignore="MissingTranslation">3.تتبع الأباء لأبنائهم من خلال تثبيت التطبيق على هاتف الأبن أو الأبنة وإخفائة بإستخدام تطبيق لإخفاء التطبيقات .وفى أوقات خروجهم من المنزل تتمكن من معرفه المكان مع الوقت والتاريخ فى كل مرة يقوم بفتح الهاتف.</string>
+    <string name="lesson_discription_app4" tools:ignore="MissingTranslation">أخيراً لإفضل إستخدام لهذا التطبيق وأحسن أداء ,يجب البقاء على إتصال مع الأنترنت ومكان الهاتف.</string>
+    <string name="lesson_discription_app5" tools:ignore="MissingTranslation">يتم حفظ صور الكاميرا الأمامية والمكان فى مجلد الهاتف. (Android/data/com.horaspolice/cache/) يجب المسح يديويا حسب الحاجة</string>
+    <string name="expandable_card_view_image_content_description" translatable="false">Arrow to expand card</string>
+    <string name="expandable_card_view_icon_content_description" translatable="false">Card icon</string>
+    <string name="wifion" translatable="false">WIFI</string>
+    <string name="infocs" tools:ignore="MissingTranslation">معلومات</string>
+    <string name="cam" tools:ignore="MissingTranslation">الإعدادات</string>
+    <string name="dialog_positive_button_title" tools:ignore="MissingTranslation">تحديث</string>
+    <string name="about" tools:ignore="MissingTranslation">عن التطبيق</string>
+    <string name="copy_right3" tools:ignore="MissingTranslation">أحمد سعد</string>
+    <string name="about_play_store_sapeh" tools:ignore="MissingTranslation">تطبيقاتنا الأخرى</string>
+    <string name="startmenu" tools:ignore="MissingTranslation">الرجوع إلى القائمة الرئيسية</string>
+    <string name="back" tools:ignore="MissingTranslation">عودة</string>
+    <string name="out" tools:ignore="MissingTranslation">للخروج من التطبيق إضغط مرة أخرى</string>
+    <string name="menuabout" tools:ignore="MissingTranslation">قائمه حول التطبيق</string>
+    <string name="menuselfy" tools:ignore="MissingTranslation">قائمة الإعدادات</string>
+    <string name="infowork" tools:ignore="MissingTranslation">معلومات كيفية عمل التطبيق</string>
+    <string name="Permission_Granted" tools:ignore="MissingTranslation">تم تأمين التصريح</string>
+    <string name="Permission_Denied" tools:ignore="MissingTranslation">طلب الاذن مرفوض</string>
+    <string name="Denied_Message" tools:ignore="MissingTranslation">إذا رفضت الإذن ، لا يمكنك استخدام هذه الخدمة ، يرجى تشغيل الأذونات في [إعداد]> [إذن]</string>
+    <string name="Hello1" tools:ignore="MissingTranslation">هناك الكثير من الأسباب الجميلة لتكون سعيدًا اليوم.</string>
+    <string name="Hello2" tools:ignore="MissingTranslation">بداية جديدة. شاهد الفرصة الساطعة في كل يوم جديد.</string>
+    <string name="Hello3" tools:ignore="MissingTranslation">افتح عينيك ولاحظ جمال هذا العالم الرائع.</string>
+    <string name="Hello5" tools:ignore="MissingTranslation">ما قررت القيام به اليوم ، تأكد من أنه يجعلك سعيدا.</string>
+    <string name="Hello6" tools:ignore="MissingTranslation">استيقظ كل صباح معتقد أن هناك شيئًا رائعًا على وشك الحدوث.</string>
+    <string name="Hello7" tools:ignore="MissingTranslation">إنه يوم جيد لنكون سعداء.</string>
+    <string name="Hello8" tools:ignore="MissingTranslation">كن أنت لك</string>
+    <string name="Hello9" tools:ignore="MissingTranslation">يوم آخر نعمة أخرى</string>
+    <string name="Hello10" tools:ignore="MissingTranslation">اعمل بجد و كن لطيفا مع الناس</string>
+    <string name="Hello11" tools:ignore="MissingTranslation">الثقة بالنفس هو أفضل الزي</string>
+    <string name="Hello12" tools:ignore="MissingTranslation">اختيار اللطف والضحك في كثير من الأحيان</string>
+    <string name="Hello13" tools:ignore="MissingTranslation">ادفع نفسك لأن لا أحد آخر سيفعل ذلك من أجلك.</string>
+    <string name="Hello14" tools:ignore="MissingTranslation">حدد هدفًا يجعلك ترغب في القفز من السرير في الصباح.</string>
+    <string name="Hello15" tools:ignore="MissingTranslation">استمر امضي قدما. كل ما تحتاجه سيأتي إليك في الوقت المناسب.</string>
+    <string name="Hello16" tools:ignore="MissingTranslation">كل صباح لديك فرصة جديدة لتصبح نسخة أكثر سعادة من نفسك.</string>
+    <string name="Hello17" tools:ignore="MissingTranslation">افعل شيئا اليوم, تصبح نفسك له فى المستقبل سعيدة منه</string>
+    <string name="Hello18" tools:ignore="MissingTranslation">اللطف مجانى.قم بتقديمة فى كل مكان</string>
+    <string name="Hello19" tools:ignore="MissingTranslation">كل ما هو جيد لروحك…افعله.</string>
+    <string name="Hello4" tools:ignore="MissingTranslation">اليوم هو يوم جميل وسأجذب الأشياء الجيدة في حياتي.</string>
+    <string name="save_words" tools:ignore="MissingTranslation">تم حفظ النص</string>
+    <string name="mail_empty" tools:ignore="MissingTranslation">نص البريد فارغ</string>
+    <string name="mail_notempty" tools:ignore="MissingTranslation">نص البريد ليس فارغ</string>
+    <string name="github" tools:ignore="MissingTranslation">جِت هب</string>
+    <string name="facebook" tools:ignore="MissingTranslation">فيسبوك</string>
+    <string name="instagram" tools:ignore="MissingTranslation">انستاغرام</string>
+    <string name="twitter" tools:ignore="MissingTranslation">تويتر</string>
+    <string name="bitbucket" tools:ignore="MissingTranslation">بِت بكيت</string>
+    <string name="google" tools:ignore="MissingTranslation">جوجل</string>
+    <string name="google_plus" tools:ignore="MissingTranslation">جوجل بلس</string>
+    <string name="google_play_store" tools:ignore="MissingTranslation">متجر جوجل بلاي</string>
+    <string name="google_play_games" tools:ignore="MissingTranslation">ألعاب جوجل بلاي</string>
+    <string name="linkedin" tools:ignore="MissingTranslation">لِنكد إن</string>
+    <string name="whastapp" tools:ignore="MissingTranslation">وتساب</string>
+    <string name="skype" tools:ignore="MissingTranslation">سكايب</string>
+    <string name="youtube" tools:ignore="MissingTranslation">يوتيوب</string>
+    <string name="android" tools:ignore="MissingTranslation">أندرويد</string>
+    <string name="dribbble" tools:ignore="MissingTranslation">دريبيل</string>
+    <string name="website" tools:ignore="MissingTranslation">موقع إلكتروني</string>
+    <string name="email" tools:ignore="MissingTranslation">بريد إلكتروني</string>
+    <string name="version" tools:ignore="MissingTranslation">إصدار %s</string>
+    <string name="error" tools:ignore="MissingTranslation">خطأ</string>
+    <string name="rate_five_stars" tools:ignore="MissingTranslation">قيّم هذا التطبيق ب5 نجوم</string>
+    <string name="more_apps" tools:ignore="MissingTranslation">تطبيقات أخرى عن طريقي</string>
+    <string name="share_app" tools:ignore="MissingTranslation">شارك هذا التطبيق</string>
+    <string name="update_app" tools:ignore="MissingTranslation">حدّث هذا التطبيق</string>
+    <string name="feedback_app" tools:ignore="MissingTranslation">أرسل تغذية راجعة</string>
+    <string name="introduce_app" tools:ignore="MissingTranslation">عن التطبيق</string>
+    <string name="changelog" tools:ignore="MissingTranslation">سِجل التغيير</string>
+    <string name="remove_ads" tools:ignore="MissingTranslation">أوقِف الإعلانات</string>
+    <string name="donate" tools:ignore="MissingTranslation">تبرع</string>
+    <string name="help" tools:ignore="MissingTranslation">مساعدة</string>
+    <string name="privacy" tools:ignore="MissingTranslation">سياسة الخصوصية</string>
+    <string name="license" tools:ignore="MissingTranslation">التصاريح</string>
+    <string name="myname" tools:ignore="MissingTranslation">أحمد سعد</string>
+    <string name="Developer" tools:ignore="MissingTranslation">مطور تطبيقات</string>
+    <string name="makolaty" tools:ignore="MissingTranslation">مهتم بتكنولوجيا الهواتف وتطوير الأفكار</string>
+    <string name="finalback">إضغط مرة أخرى للرجوع للقائمة الرئيسية</string>
+    <string name="make_off">تخطى</string>
+    <string name="app_lo">يجمع تطبيق حورس أندرويد بيانات الموقع لتحديد جهاز أندرويد ، فقط عند تقعيل شاشة قفل التطبيق ،\nوتُستخدم هذه البيانات أيضًا لدعم الإعلانات.</string>
+    <string name="app_ol">إذن استخدم موقعك</string>
+    <string name="app_read_stroge">إذن كتابة وقراءة التخزين</string>
+    <string name="app_read_stroge1">يستخدم هذا الأذن قراءة وكتابة وحفظ الملفات داخل مجلد التطبيق</string>
+    <string name="app_camera">إذن إستخدام الكاميرا الأمامية</string>
+    <string name="app_camera1">يستخدم الكاميرا الأمامية لتمكين إلتقاط صورة لمن يقوم بفتح الهاتف من شاشة قفل التطبيق\nوأيضا إذن السماح بعرض واجهة التطبيق بالظهور فوق التطبيقات الأخرى</string>
+    <string name="no_step_out">لا يمكن التخطى إلا بعد الموافقة على كل التصاريح لنجاح عملية التثبيت</string>
+</resources>

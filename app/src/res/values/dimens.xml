@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">@dimen/_16mdp</dimen>
+    <dimen name="activity_vertical_margin">@dimen/_16mdp</dimen>
+    <dimen name="mtf_cardHeight_initial">4dp</dimen>
+    <dimen name="mtf_cardHeight_final">55dp</dimen>
+    <dimen name="mtf_corner_radius">4dp</dimen>
+    <dimen name="swipe_card_offset">@dimen/_20mdp</dimen>
+
+    <dimen name="rippleStrokeWidth">2dp</dimen>
+    <dimen name="rippleRadius">64dp</dimen>
+
+    <dimen name="dialog_width">320dp</dimen>
+    <dimen name="dialog_height">450dp</dimen>
+    <dimen name="dialog_padding">10dp</dimen>
+
+    <dimen name="xlarge_text">@dimen/_16font_mdp</dimen>
+    <dimen name="xxlarge_text">@dimen/_18font_mdp</dimen>
+
+    <dimen name="margin_x_small">5dp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="margin_medium">15dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="margin_x_large">25dp</dimen>
+    <dimen name="margin_xx_large">30dp</dimen>
+    <dimen name="margin_xxx_large">40dp</dimen>
+    <dimen name="margin_xxxx_large">60dp</dimen>
+    <dimen name="margin_xxxxx_large">90dp</dimen>
+    <dimen name="button_size">@dimen/_36mdp</dimen>
+    <dimen name="button_size2">@dimen/_38mdp</dimen>
+    <dimen name="progress_size">@dimen/_47mdp</dimen>
+    <dimen name="button_width">@dimen/_118mdp</dimen>
+
+    <dimen name="button_text_size">@dimen/_12font_mdp</dimen>
+
+    <dimen name="default_card_height">@dimen/_50mdp</dimen>
+    <dimen name="default_vertical_padding">@dimen/_10mdp</dimen>
+
+    <item name="gnt_medium_template_bottom_weight" format="float" type="dimen">0.4</item>
+    <item name="gnt_text_row_weight" format="float" type="dimen">0.25</item>
+    <item name="gnt_media_view_weight" format="float" type="dimen">1.0</item>
+    <item name="gnt_medium_template_top_weight" format="float" type="dimen">0.2</item>
+    <dimen name="gnt_default_margin">@dimen/_10mdp</dimen>
+    <dimen name="gnt_text_size_small">@dimen/_12font_mdp</dimen>
+    <dimen name="gnt_text_size_large">@dimen/_15font_mdp</dimen>
+    <dimen name="gnt_ad_indicator_width">@dimen/_25mdp</dimen>
+    <dimen name="gnt_ad_indicator_height">@dimen/_20mdp</dimen>
+    <dimen name="gnt_ad_indicator_bar_height">@dimen/_30mdp</dimen>
+    <dimen name="gnt_ad_indicator_top_margin">0dp</dimen>
+    <dimen name="gnt_ad_indicator_bottom_margin">@dimen/_10mdp</dimen>
+    <dimen name="gnt_ad_indicator_text_size">@dimen/_10font_mdp</dimen>
+    <dimen name="gnt_small_cta_button_height">@dimen/_30mdp</dimen>
+    <dimen name="gnt_medium_cta_button_height">@dimen/_50mdp</dimen>
+    <dimen name="gnt_no_margin">0dp</dimen>
+    <dimen name="gnt_no_size">0dp</dimen>
+    <dimen name="title">@dimen/_21font_mdp</dimen>
+    <dimen name="massege">@dimen/_18font_mdp</dimen>
+    <dimen name="s1">@dimen/_18font_mdp</dimen>
+    <dimen name="s2">@dimen/_18font_mdp</dimen>
+    <dimen name="s3">@dimen/_18font_mdp</dimen>
+    <dimen name="aboutapp">@dimen/_20font_mdp</dimen>
+    <dimen name="time">@dimen/_60font_mdp</dimen>
+    // قائمة عن التطبيق
+    <dimen name="app_icon_size">90dp</dimen>
+    <dimen name="profile_picture_size">100dp</dimen>
+    <dimen name="profile_picture_border">3dp</dimen>
+    <dimen name="card_radius">3dp</dimen>
+    <dimen name="card_elevation">3dp</dimen>
+    <dimen name="social_media_vertical_padding">10dp</dimen>
+    <dimen name="icon_size">25dp</dimen>
+
+</resources>
