@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_width="@dimen/dialog_width"
+    android:layout_height="@dimen/dialog_height">
+
+    <RelativeLayout
+        android:id="@+id/root"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/_4mdp"
+        android:layout_marginEnd="@dimen/_4mdp"
+        android:layout_marginTop="@dimen/_15mdp"
+        android:layout_marginBottom="@dimen/_15mdp">
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="@dimen/margin_small"
+            app:srcCompat="@drawable/ic_cancel_white_24dp" />
+
+        <LinearLayout
+            android:id="@+id/hadeth_lottie"
+            android:layout_above="@+id/no_internet"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="DisableBaselineAlignment">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/wifi_lottie"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    app:lottie_scale="0.7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/location_lottie"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentTop="true"
+                    android:scaleType="centerCrop"
+                    app:lottie_scale="0.7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/airplan_lottie"
+            android:layout_above="@+id/no_internet"
+            android:layout_centerInParent="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    <com.horaspolice.small_library.LightTextView
+        android:id="@+id/no_internet"
+        android:layout_above="@+id/no_internet_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingEnd="@dimen/margin_medium"
+        android:paddingStart="@dimen/margin_medium"
+        android:paddingTop="@dimen/margin_small"
+        android:text="@string/no_internet_title"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"/>
+
+    <com.horaspolice.small_library.LightTextView
+        android:id="@+id/no_internet_body"
+        android:layout_above="@+id/turn_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_x_small"
+        android:alpha="0.7"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:maxLines="2"
+        android:paddingEnd="@dimen/margin_medium"
+        android:paddingStart="@dimen/margin_medium"
+        android:text="@string/no_internet_body"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+       android:layout_centerInParent="true"/>
+
+    <com.horaspolice.small_library.LightTextView
+        android:id="@+id/turn_on"
+        android:layout_above="@+id/hadeth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/_8mdp"
+        android:alpha="0.7"
+        android:ellipsize="end"
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:paddingBottom="@dimen/margin_small"
+        android:paddingEnd="@dimen/margin_medium"
+        android:paddingStart="@dimen/margin_medium"
+        android:text="@string/turn_on"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWhite"
+        android:textSize="12sp"
+        android:layout_centerInParent="true"/>
+
+
+    <LinearLayout
+        android:id="@+id/hadeth"
+        android:layout_above="@+id/mobile_on"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/_20mdp"
+        android:layout_marginStart="@dimen/_8mdp"
+        android:layout_marginEnd="@dimen/_8mdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/wifi_on"
+                style="@style/roundedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_size"
+                android:drawableStart="@drawable/ic_wifi_white"
+                android:text="@string/wifi_on"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/button_text_size"
+                android:layout_alignParentStart="true"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/location_on"
+                style="@style/roundedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/button_size"
+                android:drawableStart="@drawable/ic_location_on_black_24dp"
+                android:text="@string/location"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/button_text_size"
+                android:layout_centerInParent="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/mobile_on"
+            style="@style/roundedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_size"
+            android:text="@string/make_off"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/button_text_size"
+            android:layout_marginBottom="@dimen/_20mdp"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/airplane_off"
+        style="@style/roundedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_size"
+        android:drawableStart="@drawable/ic_airplane_off"
+        android:text="@string/airplane"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/button_text_size"
+        android:layout_marginBottom="@dimen/_20mdp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"/>
+
+    </RelativeLayout>
+</RelativeLayout>

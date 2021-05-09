@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_Start"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/policebackground"
+    tools:context=".activity.StartActivity">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4mdp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-9574398154137015/2607469317">
+        </com.google.android.gms.ads.AdView>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView2"
+            android:layout_below="@+id/adView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4mdp"
+            android:layout_centerHorizontal="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-9574398154137015/2041520779">
+        </com.google.android.gms.ads.AdView>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView3"
+            android:layout_below="@+id/adView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4mdp"
+            android:layout_centerHorizontal="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-9574398154137015/6355142639">
+        </com.google.android.gms.ads.AdView>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView5"
+            android:layout_below="@+id/adView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_4mdp"
+            android:layout_centerHorizontal="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-9574398154137015/9732115015">
+        </com.google.android.gms.ads.AdView>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lottie_renderMode="software"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_fileName="police.json"
+            app:lottie_imageAssetsFolder="images"/>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView4"
+            android:layout_above="@+id/fab_seilfy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_4mdp"
+            android:layout_centerHorizontal="true"
+            ads:adSize="SMART_BANNER"
+            ads:adUnitId="ca-app-pub-9574398154137015/1073846047">
+        </com.google.android.gms.ads.AdView>
+
+        <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/fab_seilfy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="seilfy"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_30mdp"
+            android:layout_marginEnd="@dimen/_15mdp"
+            android:layout_marginStart="@dimen/_15mdp"
+            android:scaleType="center"
+            android:src="@drawable/ic_menu"
+            app:fab_colorNormal="@color/bmb_background_color"
+            app:fab_colorPressed="@color/bmb_background_color"
+            app:fab_colorRipple="@color/bmb_background_color" />
+
+        <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/fab_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="about"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/_30mdp"
+            android:layout_marginEnd="@dimen/_15mdp"
+            android:layout_marginStart="@dimen/_15mdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_about"
+            app:fab_colorNormal="@color/button_pressed"
+            app:fab_colorPressed="@color/button_pressed"
+            app:fab_colorRipple="@color/button_pressed" />
+</RelativeLayout>
+

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".locker_camera.SelfieCamera">
+
+    <com.github.florent37.expansionpanel.ExpansionHeader
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/sampleHeader"
+        app:expansion_headerIndicator="@id/headerIndicator"
+        app:expansion_layout="@id/expansionLayout3"
+        app:expansion_toggleOnClick="true">
+
+        <RelativeLayout
+            android:background="#567FFF"
+            android:layout_height="@dimen/_48mdp"
+            android:layout_width="match_parent"
+            android:paddingStart="@dimen/_16mdp"
+            android:paddingEnd="@dimen/_16mdp">
+
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_description_black_24dp" />
+
+            <com.horaspolice.small_library.LightTextView
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:text="@string/save_setting"
+                android:textSize="@dimen/s3"
+                android:textColor="@color/white_87" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:adjustViewBounds="true"
+                android:id="@+id/headerIndicator"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_16mdp"
+                android:layout_width="wrap_content"
+                app:srcCompat="@drawable/ic_expand_more_black_24dp" />
+
+        </RelativeLayout>
+
+    </com.github.florent37.expansionpanel.ExpansionHeader>
+
+    <com.github.florent37.expansionpanel.ExpansionLayout
+        android:id="@+id/expansionLayout3"
+        app:expansion_expanded="false"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/container"
+            android:background="#6B90FF"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_save"
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="#F1F2F5"
+        android:layout_height="@dimen/_180mdp"
+        android:layout_margin="@dimen/_8mdp"
+        app:cardCornerRadius="@dimen/_6mdp"
+        app:cardElevation="@dimen/_6mdp">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/save_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:lottie_fileName="save.json"
+            app:lottie_loop="true"
+            app:lottie_renderMode="software" />
+    </androidx.cardview.widget.CardView>
+
+            <com.suke.widget.SwitchButton
+                android:id="@+id/save_3"
+                android:layout_below="@+id/card_save"
+                android:layout_width="@dimen/_75mdp"
+                android:layout_height="@dimen/_45mdp"
+                android:layout_centerInParent="true"
+                android:paddingStart="@dimen/_15mdp"
+                android:paddingEnd="@dimen/_15mdp"
+                android:layout_marginBottom="@dimen/_20mdp"
+                android:layout_marginTop="@dimen/_15mdp"
+                app:sb_button_color="#64DD17"
+                app:sb_shadow_color="#506F4D"
+                app:sb_background="#FFF"
+                app:sb_checkline_color="#FFF"
+                app:sb_checked_color="#4E8442"
+                app:sb_uncheckcircle_color="#904646"/>
+        </RelativeLayout>
+
+    </com.github.florent37.expansionpanel.ExpansionLayout>
+
+        </LinearLayout>

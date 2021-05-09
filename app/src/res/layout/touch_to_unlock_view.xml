@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.horaspolice.small_library.LightTextView
+        android:id="@+id/txtv_UnlockTips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/fram_UnLockContainer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_40mdp"
+        android:text="Slide Up To Unlock"
+        android:textColor="@color/common_white"
+        android:textSize="@dimen/_18font_mdp"
+        android:visibility="gone" />
+
+
+    <RelativeLayout
+        android:id="@+id/fram_UnLockContainer"
+        android:layout_width="@dimen/_88mdp"
+        android:layout_height="@dimen/_88mdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="bottom|center_horizontal">
+
+        <com.horaspolice.widget.RippleBackground
+            android:id="@+id/rb_LockRipple"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom|center_horizontal"
+            app:rb_color="@color/dahb"
+            app:rb_duration="2400"
+            app:rb_radius="@dimen/_24mdp"
+            app:rb_rippleAmount="3"
+            app:rb_scale="1.7"
+            app:rb_strokeWidth="@dimen/_3mdp"
+            app:rb_type="strokeRipple" />
+
+
+        <ImageView
+            android:id="@+id/imgv_LockIcon"
+            android:layout_width="@dimen/_45mdp"
+            android:layout_height="@dimen/_35mdp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@drawable/locker"
+            android:scaleType="centerCrop"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+</RelativeLayout>
+

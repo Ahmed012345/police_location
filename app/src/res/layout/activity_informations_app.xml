@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#73ADFF"
+        tools:context=".activity.InformationApp">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_56mdp"
+        android:layoutDirection="ltr"
+        android:background="#5B9EFE"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_rec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/shfaf"
+            android:padding="@dimen/_8mdp"
+            android:layout_marginStart="@dimen/_8mdp"
+            android:src="@drawable/ic_back_cam2"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            tools:ignore="ContentDescription"/>
+
+        <com.horaspolice.small_library.LightTextView
+            android:id="@+id/cam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/_20font_mdp"
+            android:textAlignment="center"
+            android:text="@string/infocs"
+            android:textColor="#FFFFFF"/>
+
+        <ImageButton
+            android:id="@+id/adbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/shfaf"
+            android:padding="@dimen/_4mdp"
+            android:layout_marginEnd="@dimen/_4mdp"
+            android:src="@drawable/ic_mobile_2"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            tools:ignore="ContentDescription"/>
+
+    </RelativeLayout>
+
+    <com.skydoves.indicatorscrollview.IndicatorScrollView
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/indicatorScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#73ADFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.skydoves.indicatorscrollview.IndicatorView
+                android:id="@+id/indicatorView"
+                android:layout_width="@dimen/_50mdp"
+                android:layout_height="match_parent"
+                android:background="#BFDAFF"
+                android:paddingLeft="@dimen/_6mdp"
+                android:paddingRight="@dimen/_6mdp"
+                app:indicator_expandingAllItemRatio="0.9"
+                app:indicator_expandingRatio="0.2"
+                app:indicator_itemPadding="@dimen/_6mdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/_40mdp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_180mdp"
+                    android:layout_margin="@dimen/_8mdp"
+                    app:cardBackgroundColor="#F1F2F5"
+                    app:cardCornerRadius="@dimen/_6mdp"
+                    app:cardElevation="@dimen/_6mdp">
+
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:id="@+id/animation_view_infosection"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="infosection.json"
+                        app:lottie_loop="true"
+                        app:lottie_renderMode="software" />
+                </androidx.cardview.widget.CardView>
+
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    ads:adSize="SMART_BANNER"
+                    ads:adUnitId="ca-app-pub-9574398154137015/5320390420">
+                </com.google.android.gms.ads.AdView>
+
+                <LinearLayout
+                    android:id="@+id/section1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15mdp"
+                    android:layout_marginLeft="@dimen/_15mdp"
+                    android:layout_marginTop="@dimen/_20mdp"
+                    android:layout_marginEnd="@dimen/_15mdp"
+                    android:layout_marginRight="@dimen/_15mdp"
+                    android:orientation="vertical">
+
+                    <com.horaspolice.small_library.LightTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/why_connect_internet"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title"
+                        android:textStyle="bold" />
+
+                    <com.horaspolice.small_library.LightTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6mdp"
+                        android:text="@string/lesson_WIFI"
+                        android:textColor="@color/white_pressed"
+                        android:textSize="@dimen/massege" />
+
+                    <com.google.android.gms.ads.AdView
+                        android:id="@+id/adView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        ads:adSize="SMART_BANNER"
+                        ads:adUnitId="ca-app-pub-9574398154137015/3695838633">
+                    </com.google.android.gms.ads.AdView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/section2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15mdp"
+                    android:layout_marginLeft="@dimen/_15mdp"
+                    android:layout_marginTop="@dimen/_30mdp"
+                    android:layout_marginEnd="@dimen/_15mdp"
+                    android:layout_marginRight="@dimen/_15mdp"
+                    android:orientation="vertical">
+
+                    <com.horaspolice.small_library.LightTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/why_connect_location"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title"
+                        android:textStyle="bold" />
+
+                    <com.horaspolice.small_library.LightTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6mdp"
+                        android:text="@string/esson_LOCATION"
+                        android:textColor="@color/white_pressed"
+                        android:textSize="@dimen/massege" />
+
+                    <com.google.android.gms.ads.AdView
+                        android:id="@+id/adView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        ads:adSize="SMART_BANNER"
+                        ads:adUnitId="ca-app-pub-9574398154137015/5735323397">
+                    </com.google.android.gms.ads.AdView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/section3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15mdp"
+                    android:layout_marginLeft="@dimen/_15mdp"
+                    android:layout_marginTop="@dimen/_30mdp"
+                    android:layout_marginEnd="@dimen/_15mdp"
+                    android:layout_marginRight="@dimen/_15mdp"
+                    android:orientation="vertical">
+
+                    <com.horaspolice.small_library.LightTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/why_put_google_mail"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title"
+                        android:textStyle="bold" />
+
+                    <com.horaspolice.small_library.LightTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6mdp"
+                        android:text="@string/lesson_EMAIL"
+                        android:textColor="@color/white_pressed"
+                        android:textSize="@dimen/massege" />
+
+                    <com.google.android.gms.ads.AdView
+                        android:id="@+id/adView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        ads:adSize="SMART_BANNER"
+                        ads:adUnitId="ca-app-pub-9574398154137015/9259635436">
+                    </com.google.android.gms.ads.AdView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/section4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15mdp"
+                    android:layout_marginLeft="@dimen/_15mdp"
+                    android:layout_marginTop="@dimen/_30mdp"
+                    android:layout_marginEnd="@dimen/_15mdp"
+                    android:layout_marginRight="@dimen/_15mdp"
+                    android:orientation="vertical">
+
+                    <com.horaspolice.small_library.LightTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/why_important_screen"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title"
+                        android:textStyle="bold" />
+
+                    <com.horaspolice.small_library.LightTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6mdp"
+                        android:text="@string/lesson_SCREEN_LOCK"
+                        android:textColor="@color/white_pressed"
+                        android:textSize="@dimen/massege" />
+
+                    <com.google.android.gms.ads.AdView
+                        android:id="@+id/adView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        ads:adSize="SMART_BANNER"
+                        ads:adUnitId="ca-app-pub-9574398154137015/9251417645">
+                    </com.google.android.gms.ads.AdView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/section5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15mdp"
+                    android:layout_marginLeft="@dimen/_15mdp"
+                    android:layout_marginTop="@dimen/_30mdp"
+                    android:layout_marginEnd="@dimen/_15mdp"
+                    android:layout_marginRight="@dimen/_15mdp"
+                    android:orientation="vertical">
+
+                    <com.horaspolice.small_library.LightTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/why_save_settings"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title"
+                        android:textStyle="bold" />
+
+                    <com.horaspolice.small_library.LightTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6mdp"
+                        android:text="@string/lesson_save_settings"
+                        android:textColor="@color/white_pressed"
+                        android:textSize="@dimen/massege" />
+
+                    <com.google.android.gms.ads.AdView
+                        android:id="@+id/adView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        ads:adSize="SMART_BANNER"
+                        ads:adUnitId="ca-app-pub-9574398154137015/4190662650">
+                    </com.google.android.gms.ads.AdView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/section6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_15mdp"
+                    android:layout_marginLeft="@dimen/_15mdp"
+                    android:layout_marginTop="@dimen/_30mdp"
+                    android:layout_marginEnd="@dimen/_15mdp"
+                    android:layout_marginRight="@dimen/_15mdp"
+                    android:orientation="vertical">
+
+                    <com.horaspolice.small_library.LightTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/why_this_app_good_and_for_what_use"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/title"
+                        android:textStyle="bold" />
+
+                    <com.horaspolice.small_library.LightTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_6mdp"
+                        android:text="@string/lesson_discription_app1"
+                        android:textColor="@color/white_pressed"
+                        android:textSize="@dimen/massege" />
+
+                    <com.horaspolice.small_library.LightTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4mdp"
+                        android:text="@string/lesson_discription_app2"
+                        android:textColor="@color/white_pressed"
+                        android:textSize="@dimen/massege" />
+
+                    <com.horaspolice.small_library.LightTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4mdp"
+                        android:text="@string/lesson_discription_app3"
+                        android:textColor="@color/white_pressed"
+                        android:textSize="@dimen/massege" />
+
+                    <com.horaspolice.small_library.LightTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4mdp"
+                        android:text="@string/lesson_discription_app4"
+                        android:textColor="@color/white_pressed"
+                        android:textSize="@dimen/massege" />
+
+                    <com.horaspolice.small_library.LightTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4mdp"
+                        android:text="@string/lesson_discription_app5"
+                        android:textColor="@color/white_pressed"
+                        android:textSize="@dimen/massege" />
+
+                    <com.google.android.gms.ads.AdView
+                        android:id="@+id/adView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        ads:adSize="SMART_BANNER"
+                        ads:adUnitId="ca-app-pub-9574398154137015/3408542952">
+                    </com.google.android.gms.ads.AdView>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </com.skydoves.indicatorscrollview.IndicatorScrollView>
+
+</RelativeLayout>

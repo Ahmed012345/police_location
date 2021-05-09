@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootAbout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#53070B"
+    tools:context=".activity.AboutActivity">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_56mdp"
+        android:layoutDirection="ltr"
+        android:background="#780D10"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btn_rec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/shfaf"
+            android:padding="@dimen/_8mdp"
+            android:layout_marginStart="@dimen/_8mdp"
+            android:src="@drawable/ic_back_cam2"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            tools:ignore="ContentDescription"/>
+
+        <com.horaspolice.small_library.LightTextView
+            android:id="@+id/cam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/aboutapp"
+            android:textAlignment="center"
+            android:text="@string/about"
+            android:textColor="#FFFFFF"/>
+
+        <ImageButton
+            android:id="@+id/ads"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/shfaf"
+            android:padding="@dimen/_4mdp"
+            android:layout_marginEnd="@dimen/_4mdp"
+            android:src="@drawable/ic_mobile"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            tools:ignore="ContentDescription"/>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/about"
+        tools:context=".startgallry.AboutActivity"/>
+
+    </LinearLayout>
