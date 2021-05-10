@@ -28,7 +28,7 @@ android {
         config {
             keyAlias 'police'
             keyPassword 'android'
-            storeFile file('C:/Users/AhmedSaad/keystores/policekey.jks')
+            storeFile file('C:/Users/....../keystores/policekey.jks')
             storePassword 'android'
         }
     }
